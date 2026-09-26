@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10131f" />
+  <title>Pixel Party — small games, big energy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Pixel Party home">
+      <span class="brand-mark"><span></span><span></span><span></span><span></span></span>
+      <span>PIXEL<span class="brand-accent">PARTY</span></span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#home">Arcade</a>
+      <a href="#kingdoms">Games</a>
+      <a href="#about">About</a>
+    </nav>
+    <div class="top-actions">
+      <span class="online-dot"><i></i> 1,248 players online</span>
+      <button class="sound-btn" id="sound-toggle" type="button" aria-label="Toggle sound">♫ <span>Sound on</span></button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home-view" class="home-view">
+      <section class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> YOUR AFTER-SCHOOL ARCADE</p>
+          <h1>Small games.<br /><em>Big energy.</em></h1>
+          <p class="hero-lede">Three worlds. Zero downloads. Pick a path, make a little chaos, and see how far your skills can take you.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#kingdoms">Play featured game <span>↗</span></a>
+            <a class="text-link" href="#games">Browse all games <span>↓</span></a>
+          </div>
+          <div class="hero-meta"><span class="mini-avatar">D</span><span>Curated for Daniel</span><span class="meta-divider"></span><span>Play time: 5–15 min</span></div>
+        </div>
+        <div class="hero-art" aria-label="Pixel Party arcade illustration">
+          <div class="sun-disc"></div>
+          <div class="cloud cloud-one"></div><div class="cloud cloud-two"></div>
+          <div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+          <div class="hero-window">
+            <div class="window-bar"><span></span><span></span><span></span><b>PIXEL PARTY / ARCADE</b></div>
+            <div class="window-scene">
+              <div class="scene-stars">✦ &nbsp; · &nbsp; ✧ &nbsp; · &nbsp; ✦</div>
+              <div class="scene-title">PLAY<br /><strong>MORE</strong></div>
+              <div class="scene-knight">♞</div>
+              <div class="scene-ground"></div>
+              <div class="scene-stat stat-one"><small>GAMES</small><strong>03</strong></div>
+              <div class="scene-stat stat-two"><small>VIBE</small><strong>MAX</strong></div>
+            </div>
+          </div>
+          <div class="floating-sticker sticker-yellow">NEW<br /><span>QUEST</span></div>
+          <div class="floating-sticker sticker-pink">✦</div>
+          <div class="hero-shadow"></div>
+        </div>
+      </section>
+
+      <section id="games" class="games-section wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> THE ARCADE</p><h2>Choose your<br /><em>adventure.</em></h2></div>
+          <p class="section-note">No accounts. No waiting rooms.<br />Just hit play and get into it.</p>
+        </div>
+        <div class="game-grid">
+          <article class="game-card kingdom-card">
+            <div class="card-top"><span class="game-number">01</span><span class="game-tag">ADVENTURE</span></div>
+            <div class="card-art kingdom-art"><div class="art-sun"></div><div class="art-castle">♜</div><div class="art-knight">♞</div><div class="art-monster mini-slime">●</div><div class="art-chest">▣</div><div class="art-gem">◆</div><div class="art-trees">♣ ♣</div><div class="art-moon">☼</div></div>
+            <div class="card-body"><h3>Kingdoms of<br />Emberfall</h3><p>Build a medieval city, meet odd heroes, and survive all 30 levels.</p><div class="card-footer"><span><b>30</b> LEVELS</span><span><b>12</b> NPCS</span><a class="card-play" href="#kingdoms" aria-label="Play Kingdoms of Emberfall">PLAY <span>↗</span></a></div></div>
+          </article>
+          <article class="game-card dream-card">
+            <div class="card-top"><span class="game-number">02</span><span class="game-tag">SIMULATOR</span></div>
+            <div class="card-art dream-art"><div class="dream-sky"></div><div class="dream-cloud cloud-a"></div><div class="dream-cloud cloud-b"></div><div class="dream-house">⌂</div><div class="dream-lawn"></div><div class="dream-coin">$</div><div class="dream-coin coin-b">$</div><div class="art-phone">▯</div><div class="art-ticket">✦</div></div>
+            <div class="card-body"><h3>Dream Life<br />Simulator</h3><p>Work smart, spend loud, and build the life you keep daydreaming about.</p><div class="card-footer"><span><b>∞</b> WAYS TO EARN</span><span><b>15</b> ITEMS</span><a class="card-play" href="#dream-life" aria-label="Play Dream Life Simulator">PLAY <span>↗</span></a></div></div>
+          </article>
+          <article class="game-card moto-card">
+            <div class="card-top"><span class="game-number">03</span><span class="game-tag">RACING</span></div>
+            <div class="card-art moto-art"><div class="road-line line-a"></div><div class="road-line line-b"></div><div class="neon-city"></div><div class="bike">🏍</div><div class="art-cone">▲</div><div class="art-mud">● ●</div><div class="art-trophy">✦</div><div class="speed-lines"></div><div class="moto-badge">GO!</div></div>
+            <div class="card-body"><h3>Neon Moto<br />Rush</h3><p>Lean into the chaos. Dodge the mud. Chase the podium and trophies.</p><div class="card-footer"><span><b>05</b> LAPS</span><span><b>03</b> STRIKES</span><a class="card-play" href="#moto-rush" aria-label="Play Neon Moto Rush">PLAY <span>↗</span></a></div></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="marquee"><div class="marquee-inner"><span>NO DOWNLOADS</span><i>✦</i><span>JUST GOOD VIBES</span><i>✦</i><span>NO DOWNLOADS</span><i>✦</i><span>JUST GOOD VIBES</span><i>✦</i></div></section>
+
+      <section id="about" class="about-section wrap">
+        <div class="about-stamp">PIXEL<br /><b>PARTY</b><small>EST. 2026</small></div>
+        <div class="about-copy"><p class="eyebrow"><span class="eyebrow-line"></span> WHY PIXEL PARTY?</p><h2>Made for the<br /><em>next round.</em></h2><p>Pixel Party is a tiny corner of the internet for big little breaks. Every game is made to load fast, feel good, and give you one more reason to say “okay, last one.”</p></div>
+        <div class="about-stats"><div><strong>03</strong><span>Playable worlds</span></div><div><strong>∞</strong><span>Replay value</span></div><div><strong>0s</strong><span>Loading screen</span></div></div>
+      </section>
+    </section>
+
+    <section id="game-view" class="game-view wrap" hidden>
+      <div class="game-header"><a class="back-link" href="#home">← Back to arcade</a><div class="game-title-block"><span id="game-kicker" class="eyebrow">GAME</span><h1 id="game-title">Game</h1></div><button id="reset-game" class="quiet-btn" type="button">↺ Reset progress</button></div>
+      <div id="game-shell" class="game-shell"></div>
+      <div class="game-rail-wrap"><div class="rail-header"><span>KEEP PLAYING</span><span class="rail-rule"></span><small>Pick another world</small></div><div id="game-rail" class="game-rail"></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-brand">PIXEL<span>PARTY</span></div><p>Made for quick breaks &amp; long winning streaks.</p><div><a href="#home">Arcade</a><a href="#about">About</a><span>© 2026</span></div></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
